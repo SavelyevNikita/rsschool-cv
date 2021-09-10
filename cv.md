@@ -30,7 +30,7 @@ travel time to work: any*
 
 **Atomtechenergo (Rosatom)**
 
-Moscow, [atech.ru/en/](atech.ru/en/)
+Moscow, [https://atech.ru/en/](https://atech.ru/en/)
 
 **Engineer**
 
@@ -42,7 +42,7 @@ Lerning, coding Javascript, HTML, CSS, React.
 
 **Atomtechenergo (Rosatom)**
 
-Moscow, [atech.ru/en/](atech.ru/en/)
+Moscow, [https://atech.ru/en/](https://atech.ru/en/)
 
 **Engineer (Lead)**
    - Technical  leadership and project management (the team contained an average of 6 eingineers);
