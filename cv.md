@@ -60,10 +60,10 @@ Moscow, [https://atech.ru/en/](https://atech.ru/en/)
 ## Education
 
 National Research Tomsk Polytechnic University, Tomsk
-  Electronics and Automatics of Physical Plants
+  * Electronics and Automatics of Physical Plants
 
 ## Key skills
-  JavaScript  HTML  CSS  Git  object orientated software
+  * JavaScript  HTML  CSS  Git  object orientated software
 
 ## Softskills:
 
