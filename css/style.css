@@ -1,7 +1,14 @@
 body{
+    font-family: 'Roboto', sans-serif;
     width: 1200px;
     margin: 0 auto;
 }
 img{
     width: 200px;
+}
+footer{
+    margin: 0 auto;
+}
+header{
+    background-color: aqua;
 }
