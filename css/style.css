@@ -9,14 +9,13 @@ body {
 header {
     position: sticky;
     top: 0;
-    width: 100%;
     background-color: aqua;
 }
 
 footer {
     position: sticky;
     bottom: 0;
-    box-shadow: 5px 5px 10px 5px black;
+    /* box-shadow: 5px 5px 10px 5px black; */
     margin: 5px;
     border-radius: 5px;
     text-align: center;
@@ -30,14 +29,15 @@ footer {
 
 .header__container {
     display: flex;
-    box-shadow: 5px 5px 10px 5px black;
+    /* box-shadow: 5px 5px 10px 5px black; */
     margin: 10px;
     border-radius: 5px;
 }
 
-nav div {
+
+/* nav div {
     display: inline-block;
-}
+} */
 
 main {
     box-shadow: 5px 5px 10px 5px black;
@@ -54,6 +54,7 @@ aside {
 
 aside img {
     max-width: 300px;
+    border-radius: 5px;
 }
 
 footer img {
