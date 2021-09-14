@@ -32,8 +32,12 @@ footer{
 .header__name{
     border: solid;
 }
-.header__nav{
+nav{
     border: solid;
+}
+nav div {
+    display: inline-block;
+    margin: 0px 100px 0px 100px;
 }
 main{
     border: solid;
