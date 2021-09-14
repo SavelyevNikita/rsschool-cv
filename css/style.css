@@ -1,14 +1,43 @@
 body{
     font-family: 'Roboto', sans-serif;
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+    position: relative;
+    border: solid;
+    /* border-radius: 30px;
+    padding: 20px */
 }
 img{
     width: 200px;
 }
-footer{
-    margin: 0 auto;
+main{
+    max-width: 900px;
 }
 header{
+    position: sticky;
+    top: 0;
+    width: 100%;
     background-color: aqua;
+}
+footer{
+    position: sticky;
+    bottom: 0;
+}
+.block__container{
+    display: flex;
+}
+.header__container{
+    display: flex;
+}
+.header__name{
+    border: solid;
+}
+.header__nav{
+    border: solid;
+}
+main{
+    border: solid;
+}
+aside{
+    border: solid;
 }
