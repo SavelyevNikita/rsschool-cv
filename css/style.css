@@ -1,0 +1,88 @@
+body { 
+    background-color: #333333;
+    font-family: 'Roboto Slab', serif;
+}
+
+.body_container {
+    position: relative;
+}
+
+header { 
+    position: sticky;
+    top: 0;
+    background-color: rgb(255,90,95,0.5) ;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(255,90,95,0.5) ;
+    width: 100%;
+}
+
+.block__container {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+
+nav div {
+    display: inline-flex;
+    background-color: rgba(165, 181, 24, 1);
+}
+
+main {
+    background-color: #C4C4C4;
+    box-shadow: 5px 5px 10px 5px black;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    /* width: 80%; */
+}
+
+aside {
+    background-color: #C4C4C4;
+    box-shadow: 5px 5px 10px 5px black;
+    margin: 5px;
+    border-radius: 5px;
+    /* width: 20%; */
+}
+
+aside img {
+    max-width: 300px;
+    border-radius: 5px;
+}
+.git__img {
+    max-height: 30px;
+}
+.rcs__img {    
+    max-height: 30px;
+}
+footer span{
+    margin: 50px;
+}
+.button{
+    border: none;
+    max-height: 30px;
+}
+.codeexample .html{
+    border-radius: 5px;
+    display: block;
+    color: aqua;
+    background-color: #333333;
+}
+.contact__wraper h5{
+    padding-left: 15px;
+}
