@@ -9,16 +9,16 @@ body {
 header {
     position: sticky;
     top: 0;
-    background-color: aqua;
+    background-color: rgba(24, 97, 181, 0.5);
 }
 
 footer {
     position: sticky;
     bottom: 0;
-    /* box-shadow: 5px 5px 10px 5px black; */
     margin: 5px;
     border-radius: 5px;
     text-align: center;
+    background-color: rgba(24, 97, 181, 0.5);
 }
 
 .block__container {
@@ -29,15 +29,16 @@ footer {
 
 .header__container {
     display: flex;
-    /* box-shadow: 5px 5px 10px 5px black; */
     margin: 10px;
     border-radius: 5px;
+    justify-content: space-around;
 }
 
 
-/* nav div {
-    display: inline-block;
-} */
+nav div {
+    display: inline-flex;
+    background-color: rgba(165, 181, 24, 1);
+}
 
 main {
     box-shadow: 5px 5px 10px 5px black;
@@ -52,11 +53,24 @@ aside {
     border-radius: 5px;
 }
 
+aside div{
+    padding: 10px;
+}
+
 aside img {
     max-width: 300px;
     border-radius: 5px;
 }
-
-footer img {
-    max-width: 75px;
+.git__img {
+    max-height: 30px;
+}
+.rcs__img {    
+    max-height: 30px;
+}
+footer span{
+    margin: 50px;
+}
+.button{
+    border: none;
+    max-height: 30px;
 }
