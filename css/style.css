@@ -1,4 +1,5 @@
-body {
+body { 
+    background-color: #333333;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -6,10 +7,10 @@ body {
     position: relative;
 }
 
-header {
+header { 
     position: sticky;
     top: 0;
-    background-color: rgba(24, 97, 181, 0.5);
+    background-color: rgb(255,90,95,0.5) ;
 }
 
 footer {
@@ -18,7 +19,8 @@ footer {
     margin: 5px;
     border-radius: 5px;
     text-align: center;
-    background-color: rgba(24, 97, 181, 0.5);
+    background-color: rgb(255,90,95,0.5) ;
+    width: 100%;
 }
 
 .block__container {
@@ -29,7 +31,8 @@ footer {
 
 .header__container {
     display: flex;
-    margin: 10px;
+    align-items: center;
+    margin: 5px;
     border-radius: 5px;
     justify-content: space-around;
 }
@@ -41,20 +44,20 @@ nav div {
 }
 
 main {
+    background-color: #C4C4C4;
     box-shadow: 5px 5px 10px 5px black;
     margin: 5px;
     border-radius: 5px;
     padding: 10px;
+    /* width: 80%; */
 }
 
 aside {
+    background-color: #C4C4C4;
     box-shadow: 5px 5px 10px 5px black;
     margin: 5px;
     border-radius: 5px;
-}
-
-aside div{
-    padding: 10px;
+    /* width: 20%; */
 }
 
 aside img {
@@ -73,4 +76,13 @@ footer span{
 .button{
     border: none;
     max-height: 30px;
+}
+.codeexample .html{
+    border-radius: 5px;
+    display: block;
+    color: aqua;
+    background-color: #333333;
+}
+.contact__wraper h5{
+    padding-left: 15px;
 }

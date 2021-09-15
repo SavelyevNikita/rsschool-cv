@@ -33,18 +33,18 @@
         </header>
         <div class="block__container">
             <aside>
-                <img src="./img/Avatar.jpg" alt="ava">
-                <div>
-                    <article>Male, 32 years, born on 26 July 1989</article>
+                <img src="./img/IMG_-8.jpg" alt="ava">
+                <div class="contact__wraper">
                     <h5>Contact:</h5>
                     <ul>
                         <li><b>Tel:</b> +7(967)858-73-09</li>
-                        <li> <b>e-mail:</b> nikita1savelyev@yandex.ru</li>
+                        <li><b>e-mail:</b>nikita1savelyev@yandex.ru</li>
                     </ul>
                 </div>
             </aside>
             <main>
                 <h2>JavaScript Developer (Frontend)</h2>
+                <p>Male, 32 years, born on 26 July 1989</p>
                 <p> <b>Employment:</b> full time</p>
                 <p> <b>Work schedule: </b>remote working, flexible schedule, full day, shift schedule </p>
                 <p> <b> travel time to work:</b> any</p>
@@ -60,9 +60,10 @@
                     <li>Knowledge of JavaScript, AJAX, HTML, CSS</li>
                     <li>Writing object orientated software for web applications</li>
                     <li> <a href="https://github.com/SavelyevNikita">Git</a></li>
-                    <li>Main information resources: <a href="https://learn.javascript.ru/">learn.javascript.ru</a>, <a
-                            href="http://htmlbook.ru/">htmlbook.ru</a>, <a
-                            href="https://www.codewars.com/users/SavelyevNikita">codewars.com</a>
+                    <li>Main information resources:  <a href="https://ru.hexlet.io/">Hexlet</a> <a href="https://learn.javascript.ru/">learn.javascript.ru</a>, <a
+                            href="http://htmlbook.ru/">htmlbook.ru</a>, 
+                            <a href="https://www.codewars.com/users/SavelyevNikita">codewars.com</a>
+                           
                 </ul>
 
                 <h4>Atomtechenergo (Rosatom)</h4>
@@ -124,7 +125,7 @@
 
                 </section>
                 <section class="codeexample">
-                    <article><b>Code example:</b> </article>
+                    <h4>Code example:</h4>
                     <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9.
                         The sum of these multiples is 23. Finish the solution so that it returns the sum of all the
                         multiples of 3 or 5 below the number passed
@@ -133,12 +134,13 @@
                     <pre><code class="html">
                     const solution = number => {
                         let num = 0;
-                        for (let i = 1; i < number; i += 1) {
+                        for (let i = 1; i &lt;number; i += 1) {
                             (i % 3 === 0 || i % 5 === 0) ? num += i : num;
                         }
                         return num;
                        }
-                       return solution(10);</code></pre>
+                       return solution(10);
+                    </code></pre>
                 </section>
 
             </main>
