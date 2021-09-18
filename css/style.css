@@ -1,4 +1,4 @@
-body { 
+body {
     background-color: #333333;
     font-family: 'Roboto Slab', serif;
 }
@@ -7,10 +7,17 @@ body {
     position: relative;
 }
 
-header { 
+
+/* @media only screen and (max-width: 767px) {
+    .block__container {
+        flex-direction: column;
+    }
+} */
+
+header {
     position: sticky;
     top: 0;
-    background-color: rgb(255,90,95,0.5) ;
+    background-color: rgb(255, 90, 95, 0.5);
 }
 
 footer {
@@ -19,7 +26,7 @@ footer {
     margin: 5px;
     border-radius: 5px;
     text-align: center;
-    background-color: rgb(255,90,95,0.5) ;
+    background-color: rgb(255, 90, 95, 0.5);
     width: 100%;
 }
 
@@ -36,7 +43,6 @@ footer {
     border-radius: 5px;
     justify-content: space-around;
 }
-
 
 nav div {
     display: inline-flex;
@@ -64,25 +70,37 @@ aside img {
     max-width: 300px;
     border-radius: 5px;
 }
+
 .git__img {
     max-height: 30px;
 }
-.rcs__img {    
+
+.rcs__img {
     max-height: 30px;
 }
-footer span{
+
+footer span {
     margin: 50px;
 }
-.button{
+
+.button {
     border: none;
     max-height: 30px;
 }
-.codeexample .html{
+
+.codeexample div {
+    /* width: 100%; */
     border-radius: 5px;
-    display: block;
-    color: aqua;
     background-color: #333333;
+    border: solid rgb(136, 255, 0);
 }
-.contact__wraper h5{
+
+.codeexample .html {
+    color: aqua;
+    display: inline-block;
+    border: solid red;
+}
+
+.contact__wraper h5 {
     padding-left: 15px;
 }

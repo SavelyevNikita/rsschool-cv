@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script> -->
     <script>
         hljs.initHighlightingOnLoad();
     </script>
@@ -60,10 +60,9 @@
                     <li>Knowledge of JavaScript, AJAX, HTML, CSS</li>
                     <li>Writing object orientated software for web applications</li>
                     <li> <a href="https://github.com/SavelyevNikita">Git</a></li>
-                    <li>Main information resources:  <a href="https://ru.hexlet.io/">Hexlet</a> <a href="https://learn.javascript.ru/">learn.javascript.ru</a>, <a
-                            href="http://htmlbook.ru/">htmlbook.ru</a>, 
-                            <a href="https://www.codewars.com/users/SavelyevNikita">codewars.com</a>
-                           
+                    <li>Main information resources: <a href="https://ru.hexlet.io/">Hexlet</a> <a href="https://learn.javascript.ru/">learn.javascript.ru</a>, <a href="http://htmlbook.ru/">htmlbook.ru</a>,
+                        <a href="https://www.codewars.com/users/SavelyevNikita">codewars.com</a>
+
                 </ul>
 
                 <h4>Atomtechenergo (Rosatom)</h4>
@@ -82,8 +81,7 @@
                     <li>Technologies: Citect Redundancy, VMware</li>
                     <li>Software platform: Citect Scada 2016, Citect Historian 2016, Unity Pro XL, VMware, WinCC</li>
                     <li>Siemens Energy SPPA-T3000,TIA Portal, CodeSys</li>
-                    <li>Hardware platform: Schneider Electric M580, CRA, NOR, DDI, AMI, Simatic S7-1200, S7-200,Regul
-                        R500, HMI Weintek XE series</li>
+                    <li>Hardware platform: Schneider Electric M580, CRA, NOR, DDI, AMI, Simatic S7-1200, S7-200,Regul R500, HMI Weintek XE series</li>
                 </ul>
                 <h2>Education</h2>
                 National Research Tomsk Polytechnic University, Tomsk Electronics and Automatics of Physical Plants
@@ -119,35 +117,33 @@
                         <li>Schneider-electric, Citect Scada 2016 configuration 2018</li>
                         <li>Schneider-electric, Vijeo Citect 2017 redundancy</li>
                         <li>Schneider-electric, Scada Vijeo Citect 2017</li>
-                        <li>Schneider-electric, ePAC M580 (ethernet Programmable Automation Controller), configuration
-                            features. Unity Pro 2017 Software platform</li>
+                        <li>Schneider-electric, ePAC M580 (ethernet Programmable Automation Controller), configuration features. Unity Pro 2017 Software platform</li>
                     </ol>
 
                 </section>
                 <section class="codeexample">
                     <h4>Code example:</h4>
-                    <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9.
-                        The sum of these multiples is 23. Finish the solution so that it returns the sum of all the
-                        multiples of 3 or 5 below the number passed
-                        in. Additionally, if the number is negative, return 0 (for languages that do have them). Note:
-                        If the number is a multiple of both 3 and 5, only count it once.</p>
-                    <pre><code class="html">
-                    const solution = number => {
-                        let num = 0;
-                        for (let i = 1; i &lt;number; i += 1) {
-                            (i % 3 === 0 || i % 5 === 0) ? num += i : num;
-                        }
-                        return num;
-                       }
-                       return solution(10);
+                    <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed
+                        in. Additionally, if the number is negative, return 0 (for languages that do have them). Note: If the number is a multiple of both 3 and 5, only count it once.</p>
+                    <div>
+                        <pre><code class="html">
+const solution = number => {
+    let num = 0;
+    for (let i = 1; i &lt;number; i += 1) {
+    (i % 3 === 0 || i % 5 === 0) ? num += i : num;
+    }
+    return num;
+    }
+return solution(10);
                     </code></pre>
+                    </div>
                 </section>
 
             </main>
         </div>
         <footer>
             <a href="https://github.com/SavelyevNikita">
-            <img class="git__img" src="./img/free-icon-github-270798.png" alt="https://github.com/SavelyevNikita">
+                <img class="git__img" src="./img/free-icon-github-270798.png" alt="https://github.com/SavelyevNikita">
             </a>
             <span>2021</span>
             <a href="https://rs.school/js/">
