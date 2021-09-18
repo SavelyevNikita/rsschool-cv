@@ -7,27 +7,41 @@ body {
     position: relative;
 }
 
-
-/* @media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .block__container {
         flex-direction: column;
     }
-} */
+}
 
 header {
     position: sticky;
     top: 0;
     background-color: rgb(255, 90, 95, 0.5);
+    margin: 10px;
+    border-radius: 5px;
 }
 
+.header__container {
+    margin: 0 auto;
+    max-width: 1200px;
+    /* border: solid rgb(89, 0, 255); */
+    /* justify-content: space-around; */
+    display: flex;
+    align-items: center;
+}
+
+
+/* .header__name {
+    border: solid black;
+} */
+
 footer {
+    margin: 10px;
     position: sticky;
     bottom: 0;
-    margin: 5px;
     border-radius: 5px;
     text-align: center;
     background-color: rgb(255, 90, 95, 0.5);
-    width: 100%;
 }
 
 .block__container {
@@ -36,17 +50,19 @@ footer {
     display: flex;
 }
 
-.header__container {
+
+/* .header__container {
     display: flex;
     align-items: center;
     margin: 5px;
     border-radius: 5px;
+    border: solid rgb(89, 0, 255);
     justify-content: space-around;
-}
+} */
 
-nav div {
-    display: inline-flex;
-    background-color: rgba(165, 181, 24, 1);
+nav {
+    border: solid rgb(89, 0, 255);
+    margin: 0 auto;
 }
 
 main {
@@ -63,7 +79,6 @@ aside {
     box-shadow: 5px 5px 10px 5px black;
     margin: 5px;
     border-radius: 5px;
-    /* width: 20%; */
 }
 
 aside img {
@@ -89,16 +104,20 @@ footer span {
 }
 
 .codeexample div {
-    /* width: 100%; */
+    overflow: auto;
     border-radius: 5px;
     background-color: #333333;
+    padding-left: 10px;
     border: solid rgb(136, 255, 0);
 }
 
 .codeexample .html {
+    justify-content: center;
     color: aqua;
-    display: inline-block;
-    border: solid red;
+    display: block;
+    /* border: solid red; */
+    margin-left: auto;
+    padding-right: 5px;
 }
 
 .contact__wraper h5 {

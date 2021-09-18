@@ -12,24 +12,29 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script> -->
-    <script>
+    <!-- <script>
         hljs.initHighlightingOnLoad();
-    </script>
+    </script> -->
 </head>
 
 <body>
     <div class="body_container">
-        <header class="header__container">
-            <div class="header__name">
-                <h1>
-                    Savelyev Nikita
-                </h1>
+        <header>
+            <div class="header__container">
+                <div class="header__name">
+                    <h1>Front-End Developer</h1>
+                    <p> Savelyev Nikita </p>
+                </div>
+                <nav>
+                    <a href="#experience">Experience</a>
+                    <a href="#education">Education</a>
+                    <a href="#skills">Skills</a>
+                    <!-- <a href="#experience"><button type="button" class="button">Experience</button></a> -->
+                    <!-- <button type="button" class="button">Education</button>
+                    <button type="button" class="button">Skills</button> -->
+                </nav>
             </div>
-            <nav>
-                <button type="button" class="button">Experience</button>
-                <button type="button" class="button">Education</button>
-                <button type="button" class="button">Skills</button>
-            </nav>
+
         </header>
         <div class="block__container">
             <aside>
@@ -39,11 +44,12 @@
                     <ul>
                         <li><b>Tel:</b> +7(967)858-73-09</li>
                         <li><b>e-mail:</b>nikita1savelyev@yandex.ru</li>
+                        <li><b>telegram:</b>Nikita Savelyev</li>
                     </ul>
                 </div>
             </aside>
             <main>
-                <h2>JavaScript Developer (Frontend)</h2>
+                <h2>JavaScript Developer (Front-End Developer)</h2>
                 <p>Male, 32 years, born on 26 July 1989</p>
                 <p> <b>Employment:</b> full time</p>
                 <p> <b>Work schedule: </b>remote working, flexible schedule, full day, shift schedule </p>
@@ -52,7 +58,7 @@
                 <p> <b>Citizenship: </b> Russia, work permit at: Russia</p>
                 <p>Ready to relocate, ready for business trips</p>
 
-                <h3>Work experience</h3> —9 years 6 months
+                <h3 id="experience">Work experience</h3> —9 years 6 months
 
                 <h4>Engineer</h4>
                 <ul>
@@ -83,9 +89,9 @@
                     <li>Siemens Energy SPPA-T3000,TIA Portal, CodeSys</li>
                     <li>Hardware platform: Schneider Electric M580, CRA, NOR, DDI, AMI, Simatic S7-1200, S7-200,Regul R500, HMI Weintek XE series</li>
                 </ul>
-                <h2>Education</h2>
+                <h2 id="education">Education</h2>
                 National Research Tomsk Polytechnic University, Tomsk Electronics and Automatics of Physical Plants
-                <h2>Skills</h2>
+                <h2 id="skills">Skills</h2>
                 <h4> Key skills:</h4>
                 <ul>
                     <li>JavaScript</li>
@@ -130,7 +136,7 @@
 const solution = number => {
     let num = 0;
     for (let i = 1; i &lt;number; i += 1) {
-    (i % 3 === 0 || i % 5 === 0) ? num += i : num;
+        (i % 3 === 0 || i % 5 === 0) ? num += i : num;
     }
     return num;
     }
