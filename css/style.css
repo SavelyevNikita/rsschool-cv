@@ -1,10 +1,8 @@
 html {
     scroll-behavior: smooth;
-    /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */
 }
 
 body {
-    /* transition: all 0.3s ease 0s; */
     scroll-behavior: smooth;
     background-color: #333333;
     font-family: 'Roboto Slab', serif;
@@ -14,16 +12,13 @@ body {
     position: relative;
 }
 
-@media only screen and (max-width: 767px) {
-    .block__container {
-        flex-direction: column;
-    }
-    footer {
-        display: none;
-    }
-    .header__name h1 {
-        display: none;
-    }
+.header__burger {
+    display: none;
+}
+
+.burger_active {
+    color: white;
+    background: url('../img/cancel\ \(2\).svg') no-repeat center;
 }
 
 header {
@@ -37,24 +32,8 @@ header {
 .header__container {
     margin: 0 auto;
     max-width: 1180px;
-    /* border: solid rgb(89, 0, 255); */
-    /* justify-content: space-around; */
     display: flex;
     align-items: center;
-}
-
-
-/* .header__name {
-    border: solid black;
-} */
-
-footer {
-    margin: 10px;
-    position: sticky;
-    bottom: 0;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(128, 122, 122, 0.5);
 }
 
 .block__container {
@@ -63,27 +42,21 @@ footer {
     display: flex;
 }
 
-
-/* .header__container {
-    display: flex;
-    align-items: center;
-    margin: 5px;
-    border-radius: 5px;
-    border: solid rgb(89, 0, 255);
-    justify-content: space-around;
-} */
-
-nav {
-    /* border: solid rgb(89, 0, 255); */
+.header__nav {
     margin: 0 auto;
-    text-decoration: none
 }
 
-nav a:hover {
+.header__nav a:hover {
+    text-decoration: none;
     background-color: rgba(153, 152, 152, 0.8);
 }
 
-nav a {
+.header__menu {
+    display: none;
+}
+
+.header__nav a {
+    text-decoration: none;
     margin: 0 10px;
     padding: 20px;
     color: black;
@@ -97,7 +70,6 @@ main {
     margin: 5px;
     border-radius: 5px;
     padding: 10px;
-    /* width: 80%; */
 }
 
 aside {
@@ -124,28 +96,60 @@ footer span {
     margin: 50px;
 }
 
-.button {
-    border: none;
-    max-height: 30px;
-}
-
 .codeexample div {
     overflow: auto;
     border-radius: 5px;
     background-color: #333333;
     padding-left: 10px;
-    border: solid rgb(136, 255, 0);
 }
 
 .codeexample .html {
     justify-content: center;
     color: aqua;
     display: block;
-    /* border: solid red; */
     margin-left: auto;
     padding-right: 5px;
 }
 
 .contact__wraper h5 {
     padding-left: 15px;
+}
+
+footer {
+    margin: 10px;
+    position: sticky;
+    bottom: 0;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(128, 122, 122, 0.5);
+}
+
+
+/* .header__burger {
+} */
+
+@media only screen and (max-width: 767px) {
+    .block__container {
+        flex-direction: column;
+    }
+    footer {
+        display: none;
+    }
+    .header__name h1 {
+        display: none;
+    }
+    .header__burger {
+        margin: 0 auto;
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: url('../img/menu.svg') no-repeat center;
+    }
+    .burger_active {
+        color: white;
+        background: url('../img/cancel\ \(2\).svg') no-repeat center;
+    }
+    aside img {
+        max-width: 300px;
+    }
 }
