@@ -10,26 +10,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script> -->
+    <!-- <script>
         hljs.initHighlightingOnLoad();
-    </script>
+    </script> -->
 </head>
 
 <body>
     <div class="body_container">
-        <header class="header__container">
-            <div class="header__name">
-                <h1>
-                    Savelyev Nikita
-                </h1>
+        <header>
+            <div class="header__container">
+                <div class="header__name">
+                    <h1>Front-End Developer</h1>
+                    <p> Savelyev Nikita </p>
+                </div>
+                <nav class="header__nav">
+                    <a class='header__nav__a' href="#experience">Experience</a>
+                    <a class='header__nav__a' href="#education">Education</a>
+                    <a class='header__nav__a' href="#skills">Skills</a>
+                </nav>
+                <div class="header__burger">
+                </div>
             </div>
-            <nav>
-                <button type="button" class="button">Experience</button>
-                <button type="button" class="button">Education</button>
-                <button type="button" class="button">Skills</button>
-            </nav>
+
         </header>
         <div class="block__container">
             <aside>
@@ -37,22 +41,23 @@
                 <div class="contact__wraper">
                     <h5>Contact:</h5>
                     <ul>
-                        <li><b>Tel:</b> +7(967)858-73-09</li>
-                        <li><b>e-mail:</b>nikita1savelyev@yandex.ru</li>
+                        <li><b>Tel: </b> +7(967)858-73-09</li>
+                        <li><b>e-mail: </b>nikita1savelyev@yandex.ru</li>
+                        <li><b>telegram: </b>Nikita Savelyev</li>
                     </ul>
                 </div>
             </aside>
             <main>
-                <h2>JavaScript Developer (Frontend)</h2>
+                <h2>JavaScript Developer (Front-End Developer)</h2>
                 <p>Male, 32 years, born on 26 July 1989</p>
                 <p> <b>Employment:</b> full time</p>
                 <p> <b>Work schedule: </b>remote working, flexible schedule, full day, shift schedule </p>
-                <p> <b> travel time to work:</b> any</p>
-                <p> <b>Reside in:</b> Moscow</p>
+                <p> <b> travel time to work: </b> any</p>
+                <p> <b>Reside in: </b> Moscow</p>
                 <p> <b>Citizenship: </b> Russia, work permit at: Russia</p>
                 <p>Ready to relocate, ready for business trips</p>
 
-                <h3>Work experience</h3> —9 years 6 months
+                <h3 id="experience">Work experience</h3> —9 years 6 months
 
                 <h4>Engineer</h4>
                 <ul>
@@ -60,10 +65,9 @@
                     <li>Knowledge of JavaScript, AJAX, HTML, CSS</li>
                     <li>Writing object orientated software for web applications</li>
                     <li> <a href="https://github.com/SavelyevNikita">Git</a></li>
-                    <li>Main information resources:  <a href="https://ru.hexlet.io/">Hexlet</a> <a href="https://learn.javascript.ru/">learn.javascript.ru</a>, <a
-                            href="http://htmlbook.ru/">htmlbook.ru</a>, 
-                            <a href="https://www.codewars.com/users/SavelyevNikita">codewars.com</a>
-                           
+                    <li>Main information resources: <a href="https://ru.hexlet.io/">Hexlet</a> <a href="https://learn.javascript.ru/">learn.javascript.ru</a>, <a href="http://htmlbook.ru/">htmlbook.ru</a>,
+                        <a href="https://www.codewars.com/users/SavelyevNikita">codewars.com</a>
+
                 </ul>
 
                 <h4>Atomtechenergo (Rosatom)</h4>
@@ -82,12 +86,12 @@
                     <li>Technologies: Citect Redundancy, VMware</li>
                     <li>Software platform: Citect Scada 2016, Citect Historian 2016, Unity Pro XL, VMware, WinCC</li>
                     <li>Siemens Energy SPPA-T3000,TIA Portal, CodeSys</li>
-                    <li>Hardware platform: Schneider Electric M580, CRA, NOR, DDI, AMI, Simatic S7-1200, S7-200,Regul
-                        R500, HMI Weintek XE series</li>
+                    <li>Hardware platform: Schneider Electric M580, CRA, NOR, DDI, AMI, Simatic S7-1200, S7-200,Regul R500, HMI Weintek XE series</li>
                 </ul>
-                <h2>Education</h2>
-                National Research Tomsk Polytechnic University, Tomsk Electronics and Automatics of Physical Plants
-                <h2>Skills</h2>
+                <h2 id="education">Education</h2>
+                <p> 2006 - 2012: <b>National Research Tomsk Polytechnic University</b> </p>
+                <span>Electronics and Automatics of Physical Plants</span>
+                <h2 id="skills">Skills</h2>
                 <h4> Key skills:</h4>
                 <ul>
                     <li>JavaScript</li>
@@ -119,41 +123,41 @@
                         <li>Schneider-electric, Citect Scada 2016 configuration 2018</li>
                         <li>Schneider-electric, Vijeo Citect 2017 redundancy</li>
                         <li>Schneider-electric, Scada Vijeo Citect 2017</li>
-                        <li>Schneider-electric, ePAC M580 (ethernet Programmable Automation Controller), configuration
-                            features. Unity Pro 2017 Software platform</li>
+                        <li>Schneider-electric, ePAC M580 (ethernet Programmable Automation Controller), configuration features. Unity Pro 2017 Software platform</li>
                     </ol>
 
                 </section>
                 <section class="codeexample">
                     <h4>Code example:</h4>
-                    <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9.
-                        The sum of these multiples is 23. Finish the solution so that it returns the sum of all the
-                        multiples of 3 or 5 below the number passed
-                        in. Additionally, if the number is negative, return 0 (for languages that do have them). Note:
-                        If the number is a multiple of both 3 and 5, only count it once.</p>
-                    <pre><code class="html">
-                    const solution = number => {
-                        let num = 0;
-                        for (let i = 1; i &lt;number; i += 1) {
-                            (i % 3 === 0 || i % 5 === 0) ? num += i : num;
-                        }
-                        return num;
-                       }
-                       return solution(10);
+                    <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed
+                        in. Additionally, if the number is negative, return 0 (for languages that do have them). Note: If the number is a multiple of both 3 and 5, only count it once.</p>
+                    <div>
+                        <pre><code class="html">
+const solution = number => {
+    let num = 0;
+    for (let i = 1; i &lt;number; i += 1) {
+        (i % 3 === 0 || i % 5 === 0) ? num += i : num;
+    }
+    return num;
+    }
+return solution(10);
                     </code></pre>
+                    </div>
                 </section>
 
             </main>
         </div>
         <footer>
-            <a href="https://github.com/SavelyevNikita">
-            <img class="git__img" src="./img/free-icon-github-270798.png" alt="https://github.com/SavelyevNikita">
+            <a href="https://github.com/SavelyevNikita" target="_blank">
+                <img class="git__img" src="./img/free-icon-github-270798.png" alt="https://github.com/SavelyevNikita">
             </a>
             <span>2021</span>
-            <a href="https://rs.school/js/">
+            <a href="https://rs.school/js/" target="_blank">
                 <img class="rcs__img" src="./img/rs_school_js.svg" alt="https://rs.school/js/"></a>
         </footer>
     </div>
+    <script src="../rsschool-cv/js/script.js"></script>
+
 </body>
 
 </html>

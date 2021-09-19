@@ -1,4 +1,9 @@
-body { 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
     background-color: #333333;
     font-family: 'Roboto Slab', serif;
 }
@@ -7,40 +12,47 @@ body {
     position: relative;
 }
 
-header { 
-    position: sticky;
-    top: 0;
-    background-color: rgb(255,90,95,0.5) ;
+.header__burger {
+    display: none;
 }
 
-footer {
+header {
     position: sticky;
-    bottom: 0;
-    margin: 5px;
+    top: 0;
+    background-color: rgba(128, 122, 122, 0.5);
+    margin: 10px;
     border-radius: 5px;
-    text-align: center;
-    background-color: rgb(255,90,95,0.5) ;
-    width: 100%;
+}
+
+.header__container {
+    margin: 0 auto;
+    max-width: 1180px;
+    display: flex;
+    align-items: center;
 }
 
 .block__container {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1180px;
     display: flex;
 }
 
-.header__container {
-    display: flex;
-    align-items: center;
-    margin: 5px;
+.header__nav {
+    margin: 0 auto;
+}
+
+.header__nav__a:hover {
+    text-decoration: none;
+    background-color: rgba(153, 152, 152, 0.8);
+}
+
+.header__nav__a {
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 20px;
+    color: black;
     border-radius: 5px;
-    justify-content: space-around;
-}
-
-
-nav div {
-    display: inline-flex;
-    background-color: rgba(165, 181, 24, 1);
+    background-color: rgb(153, 152, 152, 0.5);
 }
 
 main {
@@ -49,7 +61,6 @@ main {
     margin: 5px;
     border-radius: 5px;
     padding: 10px;
-    /* width: 80%; */
 }
 
 aside {
@@ -57,32 +68,102 @@ aside {
     box-shadow: 5px 5px 10px 5px black;
     margin: 5px;
     border-radius: 5px;
-    /* width: 20%; */
 }
 
 aside img {
-    max-width: 300px;
+    max-width: 350px;
     border-radius: 5px;
 }
+
 .git__img {
-    max-height: 30px;
+    max-height: 100%;
 }
-.rcs__img {    
-    max-height: 30px;
+
+.rcs__img {
+    max-height: 100%;
 }
-footer span{
+
+footer span {
     margin: 50px;
 }
-.button{
-    border: none;
-    max-height: 30px;
-}
-.codeexample .html{
+
+.codeexample div {
+    overflow: auto;
     border-radius: 5px;
-    display: block;
-    color: aqua;
     background-color: #333333;
+    padding-left: 10px;
 }
-.contact__wraper h5{
+
+.codeexample .html {
+    justify-content: center;
+    color: aqua;
+    display: block;
+    margin-left: auto;
+    padding-right: 5px;
+}
+
+.contact__wraper h5 {
     padding-left: 15px;
+}
+
+footer {
+    height: 50px;
+    margin: 10px;
+    position: sticky;
+    bottom: 0;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(128, 122, 122, 0.5);
+}
+
+@media only screen and (max-width: 767px) {
+    .header__nav {
+        display: none;
+    }
+    .block__container {
+        flex-direction: column;
+    }
+    footer {
+        height: 25px;
+    }
+    .header__name h1 {
+        display: none;
+    }
+    .header__name p {
+        text-align: center;
+        font-size: 24px;
+    }
+    aside img {
+        max-width: 300px;
+    }
+    .header__container .header__burger {
+        margin: 0 auto;
+    }
+    .header__burger {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: url('../img/menu.svg') no-repeat center;
+    }
+    .burger_active {
+        background: url('../img/cancel\ \(2\).svg') no-repeat center;
+    }
+    .header__container_active {
+        display: block;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .header__nav_active {
+        display: block;
+    }
+    .header__nav__a {
+        display: block;
+        margin-top: 10px;
+        padding-top: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
 }
