@@ -1,12 +1,18 @@
 (function() {
-    const burgerButtun = document.querySelector('.header__burger');
-    burgerButtun.addEventListener('click', () => {
-        burgerButtun.classList.toggle('burger_active');
+    const burgerButton = document.querySelector('.header__burger');
+    // console.log(burgerButtun);
+    burgerButton.addEventListener('click', () => {
+        burgerButton.classList.toggle('burger_active');
     })
-    const burgerMebu = document.querySelector('.header__nav');
-    burgerButtun.addEventListener('click', () => {
-        burgerButtun.classList.toggle('header__burger');
+    const burgerMenu = document.querySelector('.header__burger');
+    const headerContainer = document.querySelector('.header__container');
+    const headerNav = document.querySelector('.header__nav');
+    // console.log(burgerMenu);
+    burgerMenu.addEventListener('click', () => {
+        console.log(headerContainer);
+        console.log(headerNav);
+        headerContainer.classList.toggle('header__container_active');
+        headerNav.classList.toggle('header__nav_active');
     })
-
 
 }());
