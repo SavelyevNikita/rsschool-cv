@@ -568,8 +568,111 @@ header .logo-nav a {
     height: 2200px;
     left: 0px;
     top: 4337px;
-    border: dashed red
+    border: dashed red;
+    background: #030303;
 }
+
+#gallery h2 {
+    position: absolute;
+    width: 518px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#gallery .div-00 {
+    position: absolute;
+    width: 456px;
+    height: 570px;
+    left: 0px;
+    top: 215px;
+    background: url(./img/galery/galery2.jpg);
+}
+
+#gallery .div-01 {
+    position: absolute;
+    width: 456px;
+    height: 456px;
+    left: 492px;
+    top: 165px;
+    background: url(./img/galery/galery1.jpg);
+}
+
+#gallery .div-02 {
+    position: absolute;
+    width: 456px;
+    height: 570px;
+    left: 984px;
+    top: 215px;
+    background: url(./img/galery/galery7.jpg);
+}
+
+#gallery .div-10 {
+    position: absolute;
+    width: 456px;
+    height: 570px;
+    left: 0px;
+    top: 809px;
+    background: url(./img/galery/galery9.jpg);
+}
+
+#gallery .div-11 {
+    position: absolute;
+    width: 456px;
+    height: 570px;
+    left: 492px;
+    top: 645px;
+    background: url(./img/galery/galery8.jpg);
+}
+
+#gallery .div-12 {
+    position: absolute;
+    width: 456px;
+    height: 456px;
+    left: 984px;
+    top: 809px;
+    background: url(./img/galery/galery10.jpg);
+}
+
+#gallery .div-20 {
+    position: absolute;
+    width: 456px;
+    height: 456px;
+    left: 0px;
+    top: 1403px;
+    background: url(./img/galery/galery4.jpg);
+}
+
+#gallery .div-21 {
+    position: absolute;
+    width: 456px;
+    height: 570px;
+    left: 492px;
+    top: 1239px;
+    background: url(./img/galery/galery3.jpg);
+}
+
+#gallery .div-22 {
+    position: absolute;
+    width: 456px;
+    height: 456px;
+    left: 984px;
+    top: 1289px;
+    background: url(./img/galery/galery15.jpg);
+}
+
+
+/* #gallery .div-30 {}
+#gallery .div-31 {}
+#gallery .div-32 {} */
 
 #tickets {
     position: absolute;
@@ -578,6 +681,42 @@ header .logo-nav a {
     left: 0px;
     top: 6612px;
     border: dashed red
+}
+
+#tickets h2 {
+    position: absolute;
+    width: 472px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* identical to box height, or 112% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+
+#tickets hr {
+    position: absolute;
+    width: 1440px;
+    height: 3px;
+    left: 0px;
+    top: 115px;
+    background: #710707;
+    border-radius: 0px;
+}
+
+#paralax div {
+    position: absolute;
+    width: 1920px;
+    height: 400px;
+    left: -240px;
+    top: 7430px;
+    background: url(./img/parallax2.jpg);
 }
 
 #contacts {
@@ -589,10 +728,102 @@ header .logo-nav a {
     border: dashed red
 }
 
+#contacts h2 {
+    position: absolute;
+    width: 397px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* identical to box height, or 112% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+
+#contacts hr {
+    position: absolute;
+    width: 1440px;
+    height: 3px;
+    left: 0px;
+    top: 115px;
+    background: #710707;
+    border-radius: 0px;
+}
+
+#contacts div {
+    position: absolute;
+    width: 282px;
+    height: 244px;
+    left: 0px;
+    top: 193px;
+}
+
+#contacts h3 {
+    position: absolute;
+    width: 227px;
+    height: 66px;
+    left: 0px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+
+#contacts .p1 {
+    position: absolute;
+    width: 282px;
+    height: 26px;
+    left: 0px;
+    top: 116px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+#contacts .p2 {
+    position: absolute;
+    width: 271px;
+    height: 26px;
+    left: 0px;
+    top: 167px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+#contacts .p3 {
+    position: absolute;
+    width: 193.98px;
+    height: 26px;
+    left: 0px;
+    top: 218px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
 footer {
     border: rgb(51, 255, 0) solid;
     width: 1440px;
     height: 392px;
     margin: 0 auto;
-    border: dashed red
+    border: dashed red;
+    background-color: #000000;
 }
