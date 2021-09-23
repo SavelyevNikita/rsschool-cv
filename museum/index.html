@@ -7,35 +7,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <img src="" alt="" srcset="">
-            <span>LOUVRE</span>
+            <img src="./img/logo.svg" alt="logo">
+            <h1>LOUVRE</h1>
         </div>
-        <nav class="logo">
-            <ul>
-                <li>Visiting</li>
-                <li>Explore</li>
-                <li>Video</li>
-                <li>Gallery</li>
-                <li>Tickets</li>
-                <li>Contacts</li>
-            </ul>
+        <nav class="logo-nav">
+            <a href="#visiting">Visiting</a>
+            <a href="#explore">Explore</a>
+            <a href="#video">Video</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#tickets">Tickets</a>
+            <a href="#contacts">Contacts</a>
         </nav>
     </header>
     <main>
-
-        <section class="Welcome"></section>
-        <section class="Visiting"></section>
-        <section class="Explore"></section>
-        <section class="Video"></section>
-        <section class="Gallery"></section>
-        <section class="Tickets"></section>
-        <section class="Contacts"></section>
-
+        <section class="welcome">
+            <div class="welcome-head">
+                <h2 class="welcome-head-h2">WELCOME TO THE LOUVRE</h2>
+                <span>From the castle to the museum</span>
+                <button> <span>Discover the Louvre</span></button>
+            </div>
+            <img src="./img/galery/1.png" alt="slider">
+        </section>
+        <section id="visiting">
+            <h2>Virtual tour</h2>
+            <div class="royal-palace"><img src="./img/galery/Royal Palace.jpg" alt="royal-palace">
+                <span class="name">Royal Palace</span>
+                <span class="virtual-tour">360° Virtual Tour</span>
+                <span class="gspw">Google Street Panorama View</span>
+            </div>
+            <div class="denon-wing"><img src="./img/galery/Denon Wing.jpg" alt="denon-wing">
+                <span class="name">Denon Wing</span>
+                <span class="virtual-tour">360° Virtual Tour</span>
+                <span class="gspw">Google Street Panorama View</span>
+            </div>
+            <div class="colonnade-perrault"><img src="./img/galery/Colonnade Perrault.jpg" alt="colonnade-perrault">
+                <span class="name">Colonnade Perrault</span>
+                <span class="virtual-tour">360° Virtual Tour</span>
+                <span class="gspw">Google Street Panorama View</span>
+            </div>
+            <div class="greek-hall"><img src="./img/galery/Greek hall.jpg" alt="greek-hall">
+                <span class="name">Greek hall</span>
+                <span class="virtual-tour">360° Virtual Tour</span>
+                <span class="gspw">Google Street Panorama View</span>
+            </div>
+            <div class="mona-lisa"><img src="./img/galery/Mona Lisa.jpg" alt="mona-lisa">
+                <span class="name">Mona Lisa</span>
+                <span class="virtual-tour">360° Virtual Tour</span>
+                <span class="gspw">Google Street Panorama View</span>
+            </div>
+            <div class="night-palace"><img src="./img/galery/Night Palace.jpg" alt="night-palace">
+                <span class="name">Night Palace</span>
+                <span class="virtual-tour"> 360° Virtual Tour</span>
+                <span class="gspw">Google Street Panorama View</span>
+            </div>
+        </section>
+        <section id="explore">
+            <h2>Picture explore</h2>
+            <hr>
+            <p class="p1">Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+            <p class="p2">It was cleaned in 1984 to remove a "yellow veil" of dust that had gathered since the previous restoration in the 19th century.</p>
+            <p class="p3">The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
+            <!-- <img src="./img/explore-slider/after.jpg" alt="slider"> -->
+            <div></div>
+        </section>
+        <section id="video">
+            <h2>Video journey</h2>
+            <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
+        </section>
+        <section id="gallery">
+            <h2>Art Gallery</h2>
+        </section>
+        <section id="tickets">
+            <h2>Tickets</h2> Tickets
+        </section>
+        <section id="contacts">
+            <h2>Contacts</h2>
+        </section>
     </main>
     <footer></footer>
 

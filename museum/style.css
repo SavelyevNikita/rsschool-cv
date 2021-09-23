@@ -1,18 +1,38 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
 html {
-    /* background: #030303; */
+    font-family: Roboto;
+    font-style: normal;
     scroll-behavior: smooth;
 }
 
 body {
-    background: #030303;
+    background: white;
     height: 8717px;
 }
 
 main {
+    color: white;
     width: 1440px;
     height: 8717px;
     border: steelblue solid;
     margin: 0 auto;
+    position: relative;
 }
 
 header {
@@ -21,12 +41,552 @@ header {
     width: 1440px;
     height: 150px;
     margin: 0 auto;
+    position: relative;
+    background-color: #030303;
 }
 
-header .logo li {
+.logo {
+    position: absolute;
+    width: 199px;
+    height: 33px;
+    left: 0px;
+    top: 59px;
+}
+
+.logo h1 {
+    position: absolute;
+    width: 125px;
+    height: 31px;
+    left: 74px;
+    top: 2px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 775px;
+    height: 26px;
+    left: 665px;
+    top: 62px;
+    border: tomato solid;
+}
+
+header .logo-nav a {
     color: #ffffff;
     display: inline;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    font-family: Roboto;
+    color: #FFFFFF;
+}
+
+.welcome {
+    position: absolute;
+    width: 1440px;
+    height: 810px;
+    left: 0px;
+    top: 0px;
+    border: dashed red;
+    background-color: #030303;
+}
+
+
+/* .welcome div {
+            position: relative;
+        } */
+
+.welcome-head {
+    position: absolute;
+    width: 598px;
+    height: 388px;
+    left: 0px;
+    top: 150px;
+    z-index: 2;
+    border: dashed red;
+}
+
+.welcome-head-h2 {
+    position: absolute;
+    width: 593px;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.welcome-head span {
+    position: absolute;
+    width: 445px;
+    height: 33px;
+    left: 0px;
+    top: 205px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.welcome button {
+    position: absolute;
+    width: 360px;
+    height: 75px;
+    left: 0px;
+    top: 313px;
+    background-color: #710707;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.welcome button span {
+    position: absolute;
+    width: 232px;
+    height: 75px;
+    left: 64px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
     display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.welcome img {
+    position: absolute;
+    width: 1000px;
+    /* height: 750px; */
+    right: 0px;
+    top: 0px;
+}
+
+#visiting {
+    position: absolute;
+    width: 1440px;
+    height: 1116px;
+    left: 0px;
+    top: 885px;
+    border: dashed red
+}
+
+#visiting h2 {
+    position: absolute;
+    width: 550px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+
+#visiting .royal-palace {
+    position: absolute;
+    width: 440px;
+    height: 424px;
+    left: 0px;
+    top: 193px;
+}
+
+.name {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.virtual-tour {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.gspw {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#visiting .royal-palace .name {
+    position: absolute;
+    width: 252px;
+    height: 35px;
+    left: 0px;
+    top: 310px;
+}
+
+#visiting .royal-palace .virtual-tour {
+    position: absolute;
+    width: 165px;
+    height: 26px;
+    left: 0px;
+    top: 367px;
+}
+
+#visiting .royal-palace .gspw {
+    position: absolute;
+    width: 240px;
+    height: 21px;
+    left: 0px;
+    top: 403px;
+}
+
+#visiting .denon-wing {
+    position: absolute;
+    width: 440px;
+    height: 424px;
+    left: 500px;
+    top: 193px;
+    color: #000000;
+}
+
+#visiting .denon-wing .name {
+    position: absolute;
+    width: 233px;
+    height: 35px;
+    left: 0px;
+    top: 310px;
+}
+
+#visiting .denon-wing .virtual-tour {
+    position: absolute;
+    width: 165px;
+    height: 26px;
+    left: 0px;
+    top: 367px;
+}
+
+#visiting .denon-wing .gspw {
+    position: absolute;
+    width: 240px;
+    height: 21px;
+    left: 0px;
+    top: 403px;
+}
+
+#visiting .colonnade-perrault {
+    position: absolute;
+    width: 440px;
+    height: 424px;
+    left: 1000px;
+    top: 193px;
+    color: #000000;
+}
+
+#visiting .colonnade-perrault .name {
+    position: absolute;
+    width: 403px;
+    height: 35px;
+    left: 0px;
+    top: 310px;
+}
+
+#visiting .colonnade-perrault .virtual-tour {
+    position: absolute;
+    width: 165px;
+    height: 26px;
+    left: 0px;
+    top: 367px;
+}
+
+#visiting .colonnade-perrault .gspw {
+    position: absolute;
+    width: 240px;
+    height: 21px;
+    left: 0px;
+    top: 403px;
+}
+
+#visiting .greek-hall {
+    position: absolute;
+    width: 440px;
+    height: 424px;
+    left: 0px;
+    top: 692px;
+    color: #000000;
+}
+
+#visiting .greek-hallt .name {
+    position: absolute;
+    width: 214px;
+    height: 35px;
+    left: 0px;
+    top: 310px;
+}
+
+#visiting .greek-hall .virtual-tour {
+    position: absolute;
+    width: 165px;
+    height: 26px;
+    left: 0px;
+    top: 367px;
+}
+
+#visiting .greek-hall .gspw {
+    position: absolute;
+    width: 240px;
+    height: 21px;
+    left: 0px;
+    top: 403px;
+}
+
+#visiting .mona-lisa {
+    position: absolute;
+    width: 440px;
+    height: 424px;
+    left: 500px;
+    top: 692px;
+    color: #000000;
+}
+
+#visiting .mona-lisa .name {
+    position: absolute;
+    width: 197px;
+    height: 35px;
+    left: 0px;
+    top: 310px;
+}
+
+#visiting .mona-lisa .virtual-tour {
+    position: absolute;
+    width: 165px;
+    height: 26px;
+    left: 0px;
+    top: 367px;
+}
+
+#visiting .mona-lisa .gspw {
+    position: absolute;
+    width: 240px;
+    height: 21px;
+    left: 0px;
+    top: 403px;
+}
+
+#visiting .night-palace {
+    position: absolute;
+    width: 440px;
+    height: 424px;
+    left: 1000px;
+    top: 692px;
+    color: #000000;
+}
+
+#visiting .night-palace .name {
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    left: 0px;
+    top: 310px;
+}
+
+#visiting .night-palace .virtual-tour {
+    position: absolute;
+    width: 165px;
+    height: 26px;
+    left: 0px;
+    top: 367px;
+}
+
+#visiting .night-palace .gspw {
+    position: absolute;
+    width: 240px;
+    height: 21px;
+    left: 0px;
+    top: 403px;
+}
+
+#explore {
+    position: absolute;
+    width: 1440px;
+    height: 865px;
+    left: 0px;
+    top: 2076px;
+    border: dashed red;
+    background-color: #030303;
+}
+
+#explore h2 {
+    position: absolute;
+    width: 660px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* identical to box height, or 112% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#explore hr {
+    position: absolute;
+    width: 660px;
+    height: 3px;
+    left: 0px;
+    top: 115px;
+    background: #710707;
+    border-radius: 0px;
+}
+
+#explore p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    /* or 175% */
+    color: #FFFFFF;
+}
+
+#explore .p1 {
+    position: absolute;
+    width: 660px;
+    height: 77px;
+    left: 0px;
+    top: 193px;
+}
+
+#explore .p2 {
+    position: absolute;
+    width: 660px;
+    height: 77px;
+    left: 0px;
+    top: 295px;
+}
+
+#explore .p3 {
+    position: absolute;
+    width: 660px;
+    height: 77px;
+    left: 0px;
+    top: 397px;
+}
+
+#explore div {
+    position: absolute;
+    width: 720px;
+    height: 700px;
+    left: 720px;
+    top: 15px;
+    background: url(./img/explore-slider/after.jpg);
+    border-radius: 0px;
+}
+
+#video {
+    position: absolute;
+    width: 1440px;
+    height: 1246px;
+    left: 0px;
+    top: 3016px;
+    border: dashed red
+}
+
+#video h2 {
+    position: absolute;
+    /* width: 605px; */
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* identical to box height, or 112% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+    border: dashed red
+}
+
+#video p {
+    position: absolute;
+    width: 720px;
+    height: 90px;
+    left: 720px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    /* or 175% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#gallery {
+    position: absolute;
+    width: 1440px;
+    height: 2200px;
+    left: 0px;
+    top: 4337px;
+    border: dashed red
+}
+
+#tickets {
+    position: absolute;
+    width: 1440px;
+    height: 743px;
+    left: 0px;
+    top: 6612px;
+    border: dashed red
+}
+
+#contacts {
+    position: absolute;
+    width: 1440px;
+    height: 813px;
+    left: 0px;
+    top: 7905px;
+    border: dashed red
 }
 
 footer {
@@ -34,4 +594,5 @@ footer {
     width: 1440px;
     height: 392px;
     margin: 0 auto;
+    border: dashed red
 }
