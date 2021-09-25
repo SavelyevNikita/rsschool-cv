@@ -8,7 +8,7 @@
     position: relative;
     width: 1440px;
     height: 1246px;
-    border: dashed red
+    /* border: dashed red */
 }
 
 #video .container h2 {
@@ -24,7 +24,7 @@
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #9D8665;
-    border: dashed red
+    /* border: dashed red */
 }
 
 #video .container p {

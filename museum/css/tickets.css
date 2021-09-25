@@ -1,7 +1,7 @@
 #tickets {
     width: 100%;
     padding: 75px 0;
-    border: dashed red
+    /* border: dashed red */
 }
 
 #tickets .container {
@@ -23,7 +23,6 @@
     font-weight: normal;
     font-size: 80px;
     line-height: 90px;
-    /* identical to box height, or 112% */
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #9D8665;

@@ -2,29 +2,19 @@ header {
     background-color: #030303;
 }
 
-.header {
-    /* border: rgb(51, 255, 0) solid; */
+header .header {
     width: 1440px;
     height: 150px;
     margin: 0 auto;
-    position: relative;
     background-color: #030303;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logo {
-    position: absolute;
-    width: 199px;
-    height: 33px;
-    left: 0px;
-    top: 59px;
-}
-
-.logo h1 {
-    position: absolute;
-    width: 125px;
-    height: 31px;
-    left: 74px;
-    top: 2px;
+header .header .logo h1 {
+    display: inline;
+    margin: 0 0 0 25px;
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -35,18 +25,14 @@ header {
     color: #FFFFFF;
 }
 
-.logo-nav ul {
+header .header .logo-nav ul {
     display: flex;
     justify-content: space-between;
-    position: absolute;
     width: 775px;
     height: 26px;
-    left: 665px;
-    top: 62px;
-    /* border: tomato solid; */
 }
 
-header .logo-nav a {
+header .header .logo-nav a {
     color: #ffffff;
     display: inline;
     font-weight: 200;

@@ -9,7 +9,18 @@
     width: 1440px;
     height: 1116px;
     margin: 0 auto;
-    border: dashed red
+    /* margin: 75px 0; */
+    /* border: dashed red */
+}
+
+#visiting .container hr {
+    position: absolute;
+    width: 1440px;
+    height: 3px;
+    left: 0px;
+    top: 115px;
+    background: #710707;
+    border-radius: 0px;
 }
 
 #visiting .container h2 {
@@ -199,7 +210,7 @@
 
 #visiting .container .mona-lisa .name {
     position: absolute;
-    width: 197px;
+    /* width: 197px; */
     height: 35px;
     left: 0px;
     top: 310px;

@@ -1,74 +1,136 @@
-    footer {
-        background-color: #030303;
-    }
-    
-    .footer {
-        margin: 0 auto;
-        width: 1440px;
-        height: 392px;
-        top: 8942px;
-        background-color: #030303;
-        border: red dashed;
-    }
-    
-    .footer div nav ul {
-        display: flex;
-        flex-direction: column;
-        /* flex-wrap: wrap; */
-    }
-    
-    .footer nav a {
-        color: white;
-        text-decoration: none;
-    }
-    
-    .footer .sign {
-        width: 1440px;
-        height: 124px;
-        bottom: 0px;
-        border: red dashed;
-    }
-    
-    .footer-link {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .footer-link a {
-        color: white;
-        text-decoration: none;
-    }
-    
-    .footer-link span {
-        color: white;
-    }
-    
-    .footer-logo img {
-        left: 0%;
-        right: 2%;
-        top: 0%;
-        bottom: 23.53%;
-    }
-    
-    .footer-logo {
-        position: absolute;
-        width: 195px;
-        height: 50px;
-        left: 0px;
-        top: 75px;
-    }
-    
-    .footer-logo span {
-        width: 120px;
-        height: 31px;
-        left: 75px;
-        top: 11px;
-        font-family: Forum;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 28px;
-        line-height: 31px;
-        letter-spacing: 5px;
-        text-transform: uppercase;
-        color: #FFFFFF;
-    }
+footer {
+    background-color: #030303;
+}
+
+footer .footer {
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 392px;
+    /* border: red dashed; */
+}
+
+footer .footer .footer-logo {
+    /* border: red dashed; */
+    position: absolute;
+    left: 0px;
+    margin-top: 75px;
+}
+
+footer .footer .footer-logo span {
+    margin: 0 0 0 25px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer .footer .navigation {
+    position: absolute;
+    width: 363px;
+    height: 128px;
+    left: 340px;
+    top: 87px;
+}
+
+footer .footer .navigation nav ul li a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+footer .footer .navigation nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer .footer .footer-information {
+    position: absolute;
+    width: 1440px;
+    height: 24px;
+    left: 0px;
+    top: 318px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer .footer-information span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height, or 100% */
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+footer .footer .footer-information a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+footer .footer hr {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 268px;
+    background: #666666;
+}
+
+footer .footer .wraper {
+    position: absolute;
+    width: 340px;
+    height: 48px;
+    left: 1100px;
+    top: 162px;
+}
+
+footer .footer .wraper ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer .wraper .youtube {
+    width: 48px;
+    height: 48px;
+    background: url(../img/Youtube.png);
+}
+
+footer .footer .wraper .insta {
+    width: 48px;
+    height: 48px;
+    background: url(../img/Instagram.png);
+}
+
+footer .footer .wraper .facebook {
+    width: 48px;
+    height: 48px;
+    background: url(../img/Facebook.png);
+}
+
+footer .footer .wraper .twitter {
+    width: 48px;
+    height: 48px;
+    background: url(../img/Twitter.png);
+}
+
+footer .footer .wraper .pinterest {
+    width: 48px;
+    height: 48px;
+    background: url(../img/Pinterest.png);
+}

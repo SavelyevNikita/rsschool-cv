@@ -10,8 +10,7 @@
     position: relative;
     width: 1440px;
     height: 715px;
-    border: dashed red;
-    background-color: #030303;
+    /* border: dashed red; */
 }
 
 #explore .container h2 {

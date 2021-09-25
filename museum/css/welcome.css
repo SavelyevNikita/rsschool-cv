@@ -4,15 +4,12 @@
 }
 
 .welcome .container {
-    /* padding: 75px 0px; */
     position: relative;
     width: 1440px;
     height: 810px;
-    /* left: 0px;
-    top: 0px; */
     background-color: #030303;
     margin: 0 auto;
-    border: dashed red;
+    /* border: dashed red; */
 }
 
 .welcome-head {
@@ -22,7 +19,7 @@
     left: 0px;
     top: 150px;
     z-index: 2;
-    border: dashed red;
+    /* border: dashed red; */
 }
 
 .welcome-head-h2 {
