@@ -5,17 +5,20 @@
 
 #video .container {
     margin: 0 auto;
-    position: relative;
     width: 1440px;
     height: 1246px;
     /* border: dashed red */
 }
 
-#video .container h2 {
-    position: absolute;
+#video .container .head {
+    width: 1440px;
     height: 90px;
-    left: 0px;
-    top: 0px;
+    /* border: dashed red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#video .container .head h2 {
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -27,12 +30,8 @@
     /* border: dashed red */
 }
 
-#video .container p {
-    position: absolute;
+#video .container .head p {
     width: 720px;
-    height: 90px;
-    left: 720px;
-    top: 0px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -44,9 +43,32 @@
 }
 
 #video .container iframe {
-    position: absolute;
+    margin-top: 75px;
     width: 1440px;
-    height: 650px;
-    left: 0px;
-    top: 165px;
+    height: 735px;
+}
+
+#video .container .list {
+    margin-top: 40px;
+    height: 254px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#video .container .list .pre-omg-1 {
+    background: url(../img/poster1.png);
+    width: 452px;
+    height: 254px;
+}
+
+#video .container .list .pre-omg-2 {
+    background: url(../img/poster2.png);
+    width: 452px;
+    height: 254px;
+}
+
+#video .container .list .pre-omg-3 {
+    background: url(../img/poster3.png);
+    width: 452px;
+    height: 254px;
 }

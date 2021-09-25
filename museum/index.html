@@ -52,7 +52,7 @@
                     <h2 class="welcome-head-h2">
                         <span class="welcome-head-h2-span">WELCOME</span> TO THE LOUVRE</h2>
                     <span class="welcome-head-span">From the castle to the museum</span>
-                    <a href=""> <span>Discover the Louvre</span> </a>
+                    <a href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736" target="_blank"> <span>Discover the Louvre</span> </a>
                 </div>
                 <img src="./img/galery/1.png" alt="slider">
             </div>
@@ -106,10 +106,19 @@
         </section>
         <section id="video">
             <div class="container">
-                <h2>Video journey</h2>
-                <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
+                <div class="head">
+                    <h2>Video journey</h2>
+                    <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
+                </div>
                 <iframe width="452" height="254" loading="lazy" src="https://www.youtube.com/embed/aWmJ5DgyWPI" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="list">
+                    <div class="pre-omg-1"></div>
+                    <div class="pre-omg-2"></div>
+                    <div class="pre-omg-3"></div>
+                </div>
+
             </div>
+
         </section>
         <section id="gallery">
             <div class="container">
@@ -132,7 +141,36 @@
             <div class="container">
                 <h2>BUY TICKETS</h2>
                 <hr>
-                <div class="image"></div>
+                <div class="wraper">
+                    <div class="image"></div>
+                    <form action="#" class="order">
+                        <div class="ticket-type">
+                            <span>Ticket Type</span>
+                            <p> <input checked type="radio" name="type-ticket" value="Permanent-exhibition"> Permanent exhibition</p>
+                            <p> <input type="radio" name="type-ticket" value="Temporary-exhibition"> Temporary exhibition </p>
+                            <p> <input type="radio" name="type-ticket" value="Combined-admission"> Combined-admission </p>
+                        </div>
+                        <div class="amount">
+                            <span>Amount</span>
+                            <p>Basic 18+</p>
+                            <div class="basic-number">
+                                <button type="button" onclick="this.nextElementSibling.stepDown()" id="button_minus">-</button>
+                                <input type="number" name="type-ticket" id="basic_number" min="0" max="20" value="1" readonly class="number">
+                                <button type="button" onclick="this.previousElementSibling.stepUp()" id="button_plus">+</button>
+                            </div>
+                            <p>Senior 65+</p>
+                            <div class="senior-number">
+                                <button type="button" onclick="this.nextElementSibling.stepDown()" id="button_minus">-</button>
+                                <input type="number" name="type-ticket" id="senior_number" min="0" max="20" value="1" readonly class="number">
+                                <button type="button" onclick="this.previousElementSibling.stepUp()" id="button_plus">+</button>
+                            </div>
+                            <p>Total</p>
+                            <button type="submit"> Buy Now</button>
+                        </div>
+                    </form>
+
+                </div>
+
             </div>
         </section>
         <div id="paralax">

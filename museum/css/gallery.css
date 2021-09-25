@@ -4,7 +4,7 @@
     /* border: dashed red; */
     background: #030303;
     padding: 66px 0;
-    overflow: auto;
+    overflow: hidden;
 }
 
 #gallery .container {

@@ -6,18 +6,14 @@
 
 #tickets .container {
     margin: 0 auto;
-    position: relative;
     width: 1440px;
     height: 743px;
-    border: dashed red
+    /* border: dashed red */
 }
 
 #tickets .container h2 {
-    position: absolute;
     width: 472px;
     height: 90px;
-    left: 0px;
-    top: 0px;
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -29,20 +25,115 @@
 }
 
 #tickets .container hr {
-    position: absolute;
+    margin-top: 25px;
     width: 1440px;
     height: 3px;
-    left: 0px;
-    top: 115px;
     background: #710707;
     border-radius: 0px;
 }
 
-#tickets .container .image {
-    position: absolute;
+#tickets .container .wraper {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tickets .container .wraper .image {
     width: 720px;
     height: 550px;
-    left: 0px;
-    top: 193px;
     background: url(../img/Rectangle.png);
+}
+
+#tickets .container .wraper .order {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tickets .container .wraper .order span {
+    margin-bottom: 50px;
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+
+#tickets .container .wraper .order button {
+    width: 175px;
+    height: 50px;
+    color: #000000;
+}
+
+#tickets .container .wraper .order .ticket-type p {
+    margin: 25px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+#tickets .container .wraper .order .amount .basic-number {
+    display: flex;
+    justify-content: center;
+    border: black solid 1px;
+    width: 150px;
+    height: 50px;
+}
+
+#tickets .container .wraper .order .amount p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+#tickets .container .wraper .order .amount .senior-number {
+    display: flex;
+    border: black solid 1px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#tickets .container .wraper .order .amount p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+#button_plus {
+    /* width: 25px;
+    height: 25px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+
+#button_minus {
+    /* width: 25px;
+    height: 25px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
 }

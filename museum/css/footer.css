@@ -50,7 +50,14 @@ footer .footer .navigation nav ul li a {
 footer .footer .navigation nav ul {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     flex-wrap: wrap;
+    width: 363px;
+    height: 100px;
+}
+
+footer .footer .navigation nav ul li {
+    align-items: center;
 }
 
 footer .footer .footer-information {
@@ -69,7 +76,6 @@ footer .footer .footer-information span {
     font-weight: 200;
     font-size: 22px;
     line-height: 22px;
-    /* identical to box height, or 100% */
     letter-spacing: 2px;
     color: #FFFFFF;
 }
