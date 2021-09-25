@@ -6,7 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="./favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/welcome.css">
+    <link rel="stylesheet" href="./css/visiting.css">
+    <link rel="stylesheet" href="./css/explore.css">
+    <link rel="stylesheet" href="./css/video.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/tickets.css">
+    <link rel="stylesheet" href="./css/contacts.css">
+    <link rel="stylesheet" href="./css/paralax.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
@@ -17,109 +28,158 @@
 
 <body>
     <header>
-        <div class="logo">
-            <img src="./img/logo.svg" alt="logo">
-            <h1>LOUVRE</h1>
+        <div class="header">
+            <div class="logo">
+                <img src="./img/logo.svg" alt="logo">
+                <h1>LOUVRE</h1>
+            </div>
+            <nav class="logo-nav">
+                <ul>
+                    <li> <a href="#visiting">Visiting</a> </li>
+                    <li> <a href="#explore">Explore</a> </li>
+                    <li> <a href="#video">Video</a> </li>
+                    <li> <a href="#gallery">Gallery</a> </li>
+                    <li> <a href="#tickets">Tickets</a> </li>
+                    <li> <a href="#contacts">Contacts</a> </li>
+                </ul>
+            </nav>
         </div>
-        <nav class="logo-nav">
-            <a href="#visiting">Visiting</a>
-            <a href="#explore">Explore</a>
-            <a href="#video">Video</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#tickets">Tickets</a>
-            <a href="#contacts">Contacts</a>
-        </nav>
     </header>
     <main>
         <section class="welcome">
-            <div class="welcome-head">
-                <h2 class="welcome-head-h2">WELCOME TO THE LOUVRE</h2>
-                <span>From the castle to the museum</span>
-                <button> <span>Discover the Louvre</span></button>
+            <div class="container">
+                <div class="welcome-head">
+                    <h2 class="welcome-head-h2">
+                        <span class="welcome-head-h2-span">WELCOME</span> TO THE LOUVRE</h2>
+                    <span class="welcome-head-span">From the castle to the museum</span>
+                    <a href=""> <span>Discover the Louvre</span> </a>
+                </div>
+                <img src="./img/galery/1.png" alt="slider">
             </div>
-            <img src="./img/galery/1.png" alt="slider">
         </section>
         <section id="visiting">
-            <h2>Virtual tour</h2>
-            <div class="royal-palace"><img src="./img/galery/RoyalPalace.jpg" alt="royal-palace">
-                <span class="name">Royal Palace</span>
-                <span class="virtual-tour">360° Virtual Tour</span>
-                <span class="gspw">Google Street Panorama View</span>
-            </div>
-            <div class="denon-wing"><img src="./img/galery/DenonWing.jpg" alt="denon-wing">
-                <span class="name">Denon Wing</span>
-                <span class="virtual-tour">360° Virtual Tour</span>
-                <span class="gspw">Google Street Panorama View</span>
-            </div>
-            <div class="colonnade-perrault"><img src="./img/galery/ColonnadePerrault.jpg" alt="colonnade-perrault">
-                <span class="name">Colonnade Perrault</span>
-                <span class="virtual-tour">360° Virtual Tour</span>
-                <span class="gspw">Google Street Panorama View</span>
-            </div>
-            <div class="greek-hall"><img src="./img/galery/Greekhall.jpg" alt="greek-hall">
-                <span class="name">Greek hall</span>
-                <span class="virtual-tour">360° Virtual Tour</span>
-                <span class="gspw">Google Street Panorama View</span>
-            </div>
-            <div class="mona-lisa"><img src="./img/galery/MonaLisa.jpg" alt="mona-lisa">
-                <span class="name">Mona Lisa</span>
-                <span class="virtual-tour">360° Virtual Tour</span>
-                <span class="gspw">Google Street Panorama View</span>
-            </div>
-            <div class="night-palace"><img src="./img/galery/NightPalace.jpg" alt="night-palace">
-                <span class="name">Night Palace</span>
-                <span class="virtual-tour"> 360° Virtual Tour</span>
-                <span class="gspw">Google Street Panorama View</span>
+            <div class="container">
+                <h2>Virtual tour</h2>
+                <div class="royal-palace"><img src="./img/galery/RoyalPalace.jpg" alt="royal-palace">
+                    <span class="name">Royal Palace</span>
+                    <span class="virtual-tour">360° Virtual Tour</span>
+                    <span class="gspw">Google Street Panorama View</span>
+                </div>
+                <div class="denon-wing"><img src="./img/galery/DenonWing.jpg" alt="denon-wing">
+                    <span class="name">Denon Wing</span>
+                    <span class="virtual-tour">360° Virtual Tour</span>
+                    <span class="gspw">Google Street Panorama View</span>
+                </div>
+                <div class="colonnade-perrault"><img src="./img/galery/ColonnadePerrault.jpg" alt="colonnade-perrault">
+                    <span class="name">Colonnade Perrault</span>
+                    <span class="virtual-tour">360° Virtual Tour</span>
+                    <span class="gspw">Google Street Panorama View</span>
+                </div>
+                <div class="greek-hall"><img src="./img/galery/Greekhall.jpg" alt="greek-hall">
+                    <span class="name">Greek hall</span>
+                    <span class="virtual-tour">360° Virtual Tour</span>
+                    <span class="gspw">Google Street Panorama View</span>
+                </div>
+                <div class="mona-lisa"><img src="./img/galery/MonaLisa.jpg" alt="mona-lisa">
+                    <span class="name">Mona Lisa</span>
+                    <span class="virtual-tour">360° Virtual Tour</span>
+                    <span class="gspw">Google Street Panorama View</span>
+                </div>
+                <div class="night-palace"><img src="./img/galery/NightPalace.jpg" alt="night-palace">
+                    <span class="name">Night Palace</span>
+                    <span class="virtual-tour"> 360° Virtual Tour</span>
+                    <span class="gspw">Google Street Panorama View</span>
+                </div>
             </div>
         </section>
         <section id="explore">
-            <h2>Picture explore</h2>
-            <hr>
-            <p class="p1">Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
-            <p class="p2">It was cleaned in 1984 to remove a "yellow veil" of dust that had gathered since the previous restoration in the 19th century.</p>
-            <p class="p3">The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
-            <!-- <img src="./img/explore-slider/after.jpg" alt="slider"> -->
-            <div></div>
+            <div class="container">
+                <h2>Picture explore</h2>
+                <hr>
+                <p class="p1">Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+                <p class="p2">It was cleaned in 1984 to remove a "yellow veil" of dust that had gathered since the previous restoration in the 19th century.</p>
+                <p class="p3">The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
+                <div class="image"></div>
+                <!-- <img src="./img/explore-slider/after.jpg" alt="slider"> -->
+            </div>
         </section>
         <section id="video">
-            <h2>Video journey</h2>
-            <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
-
+            <div class="container">
+                <h2>Video journey</h2>
+                <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
+                <iframe width="452" height="254" loading="lazy" src="https://www.youtube.com/embed/aWmJ5DgyWPI" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </section>
         <section id="gallery">
-            <h2>Art Gallery</h2>
-            <div class="div-00"></div>
-            <div class="div-01"></div>
-            <div class="div-10"></div>
-            <div class="div-02"></div>
-            <div class="div-11"></div>
-            <div class="div-12"></div>
-            <div class="div-20"></div>
-            <div class="div-21"></div>
-            <div class="div-22"></div>
-            <div class="div-30"></div>
-            <div class="div-33"></div>
-            <div class="div-32"></div>
+            <div class="container">
+                <h2>Art Gallery</h2>
+                <div class="div-00"></div>
+                <div class="div-01"></div>
+                <div class="div-10"></div>
+                <div class="div-02"></div>
+                <div class="div-11"></div>
+                <div class="div-12"></div>
+                <div class="div-20"></div>
+                <div class="div-21"></div>
+                <div class="div-22"></div>
+                <div class="div-30"></div>
+                <div class="div-31"></div>
+                <div class="div-32"></div>
+            </div>
         </section>
         <section id="tickets">
-            <h2>BUY TICKETS</h2>
-            <hr>
+            <div class="container">
+                <h2>BUY TICKETS</h2>
+                <hr>
+                <div class="image"></div>
+            </div>
         </section>
         <section id="paralax">
-            <div></div>
+            <div class="container">
+                <div></div>
+            </div>
         </section>
         <section id="contacts">
-            <h2>Contacts</h2>
-            <hr>
-            <div>
-                <h3>Palais Royal Musee du Louvre</h3>
-                <p class="p1">address: 75001 Paris, France</p>
-                <p class="p2">phone: +33(0) 1 40 20 50 50</p>
-                <p class="p3">mail: info@louvre.fr </p>
+            <div class="container">
+                <h2>Contacts</h2>
+                <hr>
+                <div class="contacts_wraper">
+                    <h3>Palais Royal Musee du Louvre</h3>
+                    <p class="p1">address: 75001 Paris, France</p>
+                    <p class="p2">phone: +33(0) 1 40 20 50 50</p>
+                    <p class="p3">mail: info@louvre.fr </p>
+                </div>
+                <div class="image"></div>
+
+                <div class="map"></div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer">
+            <div class="footer-logo">
+                <img src="./img/logo.svg" alt="logo">
+                <span>LOUVRE</span>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li> <a href="#visiting">Visiting</a> </li>
+                        <li> <a href="#explore">Explore</a> </li>
+                        <li> <a href="#video">Video</a> </li>
+                        <li> <a href="#gallery">Gallery</a> </li>
+                        <li> <a href="#tickets">Tickets</a> </li>
+                        <li> <a href="#contacts">Contacts</a> </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-link">
+                <span>© 2021</span>
+                <a href="https://rs.school/" target="_blank">The Rolling Scopes School</a>
+                <a href="https://github.com/SavelyevNikita" target="_blank">Savelyev Nikita</a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 

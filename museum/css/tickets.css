@@ -1,0 +1,49 @@
+#tickets {
+    width: 100%;
+    padding: 75px 0;
+    border: dashed red
+}
+
+#tickets .container {
+    margin: 0 auto;
+    position: relative;
+    width: 1440px;
+    height: 743px;
+    border: dashed red
+}
+
+#tickets .container h2 {
+    position: absolute;
+    width: 472px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    /* identical to box height, or 112% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+}
+
+#tickets .container hr {
+    position: absolute;
+    width: 1440px;
+    height: 3px;
+    left: 0px;
+    top: 115px;
+    background: #710707;
+    border-radius: 0px;
+}
+
+#tickets .container .image {
+    position: absolute;
+    width: 720px;
+    height: 550px;
+    left: 0px;
+    top: 193px;
+    background: url(../img/Rectangle.png);
+}

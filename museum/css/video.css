@@ -1,0 +1,52 @@
+#video {
+    width: 100%;
+    padding: 75px 0;
+}
+
+#video .container {
+    margin: 0 auto;
+    position: relative;
+    width: 1440px;
+    height: 1246px;
+    border: dashed red
+}
+
+#video .container h2 {
+    position: absolute;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+    border: dashed red
+}
+
+#video .container p {
+    position: absolute;
+    width: 720px;
+    height: 90px;
+    left: 720px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#video .container iframe {
+    position: absolute;
+    width: 1440px;
+    height: 650px;
+    left: 0px;
+    top: 165px;
+}
