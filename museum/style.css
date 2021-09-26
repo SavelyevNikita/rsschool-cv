@@ -355,9 +355,13 @@ main {
 .poppup-ticket {
     opacity: 0;
     visibility: hidden;
+    transition-duration: 3s;
+    transform: translate( -100%, 0);
 }
 
 .poppup-ticket:target {
+    transition-duration: 3s;
+    transform: translate( 0, 0);
     opacity: 1;
     visibility: visible;
 }
