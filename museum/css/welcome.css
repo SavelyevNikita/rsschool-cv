@@ -68,6 +68,10 @@
     border-radius: 10px;
 }
 
+.welcome a:hover {
+    background-color: #9D8665;
+}
+
 .welcome a span {
     position: absolute;
     width: 232px;

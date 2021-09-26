@@ -64,6 +64,10 @@
     top: 295px;
 }
 
+#explore .container .p2 span {
+    color: #CAAA7D;
+}
+
 #explore .container .p3 {
     position: absolute;
     width: 660px;

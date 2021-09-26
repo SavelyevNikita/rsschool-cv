@@ -114,9 +114,40 @@
     margin-bottom: 15px;
 }
 
-#button_plus {
-    /* width: 25px;
-    height: 25px; */
+.button {
+    width: 175px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.button:hover {
+    background: #9D8665;
+    border-radius: 2px;
+}
+
+.button a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.button a:hover {
+    color: #000000;
+}
+
+
+/* #button_plus {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -127,8 +158,6 @@
 }
 
 #button_minus {
-    /* width: 25px;
-    height: 25px; */
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -136,4 +165,4 @@
     line-height: 37px;
     text-align: center;
     color: #000000;
-}
+} */
