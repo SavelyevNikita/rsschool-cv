@@ -361,3 +361,11 @@ main {
     opacity: 1;
     visibility: visible;
 }
+
+.close-wraper-all {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}

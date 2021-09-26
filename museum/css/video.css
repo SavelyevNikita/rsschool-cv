@@ -28,7 +28,7 @@
     width: 220px;
     height: 220px;
     left: 610px;
-    top: 210px;
+    top: 215px;
 }
 
 #video .container .slider-video {
@@ -48,7 +48,8 @@
     /* border: dashed red */
 }
 
-#video .container .head p {
+#video .container .head .video-text {
+    text-transform: none;
     width: 720px;
     font-family: Roboto;
     font-style: normal;
@@ -60,7 +61,7 @@
     color: #000000;
 }
 
-#video .container video {
+#video .container .video {
     margin-top: 75px;
     width: 1440px;
     height: 735px;

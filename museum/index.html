@@ -108,7 +108,7 @@
             <div class="container">
                 <div class="head">
                     <h2>Video journey</h2>
-                    <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
+                    <p class="video-text">Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
                 </div>
                 <div class="video">
                     <img class="main-video" src="../museum/img/videoImg.png" alt="future will be video">
@@ -151,16 +151,16 @@
                     <div class="image"></div>
                     <form action="#" class="order">
                         <div class="ticket-type">
-                            <span>Ticket Type</span>
+                            <span class="header-ticket-type">Ticket Type</span>
                             <p> <input checked type="radio" name="type-ticket" value="Permanent-exhibition"> Permanent exhibition</p>
                             <p> <input type="radio" name="type-ticket" value="Temporary-exhibition"> Temporary exhibition </p>
                             <p> <input type="radio" name="type-ticket" value="Combined-admission"> Combined-admission </p>
                         </div>
                         <div class="amount">
-                            <span>Amount</span>
+                            <span class="header-amount">Amount</span>
                             <p>Basic 18+</p>
                             <div class="basic-number">
-                                <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                                <button id="basic_number_minus" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
                                 <input type="number" name="type-ticket" id="basic_number" min="0" max="20" value="1" readonly class="number">
                                 <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
                             </div>
@@ -170,7 +170,7 @@
                                 <input type="number" name="type-ticket" id="senior_number" min="0" max="20" value="1" readonly class="number">
                                 <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
                             </div>
-                            <p>Total</p>
+                            <p class="total">Total €220</p>
                             <div class="button">
                                 <a href=#poppup-ticket>Byu Now</a>
                             </div>
@@ -189,15 +189,17 @@
             <div class="container">
                 <h2>Contacts</h2>
                 <hr>
-                <div class="contacts_wraper">
-                    <h3>Palais Royal Musee du Louvre</h3>
-                    <p class="p1">address: 75001 Paris, France</p>
-                    <p class="p2">phone: +33(0) 1 40 20 50 50</p>
-                    <p class="p3">mail: info@louvre.fr </p>
+                <div class="wraper">
+                    <div class="contacts_wraper">
+                        <h3>Palais Royal Musee du Louvre</h3>
+                        <p class="p1">address: 75001 Paris, France</p>
+                        <p class="p2">phone: +33(0) 1 40 20 50 50</p>
+                        <p class="p3">mail: info@louvre.fr </p>
+                    </div>
+                    <div class="image"></div>
                 </div>
-                <div class="image"></div>
 
-                <div class="map"></div>
+                <!-- <div class="map"></div> -->
             </div>
         </section>
     </main>
@@ -258,8 +260,9 @@
         </div>
     </footer>
     <div class="poppup-ticket" id="poppup-ticket">
+        <a class="close-wraper-all" href="#tickets"></a>
         <div class="poppup-wraper">
-            <a class="close-wraper" href=""><img class="close" src="../museum/img/Close.png" alt="close"></a>
+            <a class="close-wraper" href="#tickets"><img class="close" src="../museum/img/Close.png" alt="close"></a>
             <form action="#" class="poppup-order">
                 <div class="left">
                     <div class="logo-wraper">

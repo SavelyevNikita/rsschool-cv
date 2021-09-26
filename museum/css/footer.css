@@ -12,8 +12,8 @@ footer .footer {
 
 footer .footer .footer-logo {
     /* border: red dashed; */
-    position: absolute;
-    left: 0px;
+    /* position: absolute;
+    left: 0px; */
     margin-top: 75px;
 }
 
@@ -52,8 +52,8 @@ footer .footer .navigation nav ul {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 363px;
-    height: 100px;
+    width: 361px;
+    height: 103px;
 }
 
 footer .footer .navigation nav ul li {

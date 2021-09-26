@@ -50,7 +50,7 @@
     justify-content: space-between;
 }
 
-#tickets .container .wraper .order span {
+#tickets .container .wraper .order .ticket-type span {
     margin-bottom: 50px;
     display: block;
     font-family: Roboto;
@@ -59,11 +59,11 @@
     font-size: 28px;
     line-height: 33px;
     color: #000000;
+    letter-spacing: 0.5px;
 }
 
 #tickets .container .wraper .order button {
-    width: 175px;
-    height: 50px;
+    width: 50px;
     color: #000000;
 }
 
@@ -77,12 +77,28 @@
     color: #000000;
 }
 
+#tickets .container .wraper .order .amount {
+    text-align: right;
+}
+
 #tickets .container .wraper .order .amount .basic-number {
     display: flex;
     justify-content: center;
     border: black solid 1px;
     width: 150px;
     height: 50px;
+}
+
+.header-amount {
+    display: block;
+    right: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 25px;
 }
 
 #tickets .container .wraper .order .amount p {
@@ -92,6 +108,7 @@
     font-size: 22px;
     line-height: 26px;
     color: #000000;
+    margin-top: 10px;
     margin-bottom: 15px;
 }
 
@@ -104,17 +121,8 @@
     justify-content: center;
 }
 
-#tickets .container .wraper .order .amount p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 26px;
-    color: #000000;
-    margin-bottom: 15px;
-}
-
 .button {
+    border-radius: 5px;
     width: 175px;
     height: 50px;
     display: flex;
@@ -146,23 +154,26 @@
     color: #000000;
 }
 
-
-/* #button_plus {
+#tickets .container .wraper .order .amount .total {
+    display: block;
+    margin: 50px 0px 60px 0px;
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 37px;
-    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    letter-spacing: 1.65px;
     color: #000000;
 }
 
-#button_minus {
+#basic_number,
+#senior_number {
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 37px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
     text-align: center;
     color: #000000;
-} */
+}

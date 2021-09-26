@@ -1,9 +1,7 @@
 #gallery {
     width: 100%;
     height: 2200px;
-    /* border: dashed red; */
     background: #030303;
-    padding: 66px 0;
     overflow: hidden;
 }
 
@@ -12,16 +10,13 @@
     position: relative;
     width: 1440px;
     height: 2200px;
-    /* border: dashed red; */
     background: #030303;
 }
 
 #gallery .container h2 {
-    position: absolute;
+    margin-top: 75px;
     width: 518px;
     height: 90px;
-    left: 0px;
-    top: 0px;
     font-family: Forum;
     font-style: normal;
     font-weight: normal;

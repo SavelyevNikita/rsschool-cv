@@ -1,21 +1,16 @@
-#contacts {
-    padding: 75px 0;
-}
+/* #contacts {
+} */
 
 #contacts .container {
-    margin: 0 auto;
-    position: relative;
+    margin: 75px auto;
     width: 1440px;
     height: 813px;
-    /* border: dashed red */
 }
 
 #contacts .container h2 {
-    position: absolute;
+    margin: 0 0 25px 0;
     width: 397px;
     height: 90px;
-    left: 0px;
-    top: 0px;
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -27,29 +22,27 @@
 }
 
 #contacts .container hr {
-    position: absolute;
     width: 1440px;
     height: 3px;
-    left: 0px;
-    top: 115px;
     background: #710707;
     border-radius: 0px;
 }
 
-#contacts .container .contacts_wraper {
-    position: absolute;
-    width: 282px;
-    height: 244px;
-    left: 0px;
-    top: 193px;
+#contacts .container .wraper {
+    display: flex;
+    justify-content: space-between;
 }
 
-#contacts .container .contacts_wraper h3 {
-    position: absolute;
+#contacts .container .contacts_wraper {
+    margin-top: 75px;
+    width: 282px;
+    height: 244px;
+}
+
+.contacts_wraper h3 {
+    margin-bottom: 50px;
     width: 227px;
     height: 66px;
-    left: 0px;
-    top: 0px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -58,12 +51,10 @@
     color: #000000;
 }
 
-#contacts .container .contacts_wraper .p1 {
-    position: absolute;
+#contacts .container .wraper .contacts_wraper .p1 {
+    margin-bottom: 25px;
     width: 282px;
     height: 26px;
-    left: 0px;
-    top: 116px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -72,12 +63,10 @@
     color: #000000;
 }
 
-#contacts .container .contacts_wraper .p2 {
-    position: absolute;
+#contacts .container .wraper .contacts_wraper .p2 {
+    margin-bottom: 25px;
     width: 271px;
     height: 26px;
-    left: 0px;
-    top: 167px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -86,12 +75,9 @@
     color: #000000;
 }
 
-#contacts .container .contacts_wraper .p3 {
-    position: absolute;
+#contacts .container .wraper .contacts_wraper .p3 {
     width: 193.98px;
     height: 26px;
-    left: 0px;
-    top: 218px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -100,11 +86,9 @@
     color: #000000;
 }
 
-#contacts .container .image {
+#contacts .container .wraper .image {
+    margin-top: 75px;
     background: url(../img/map_contacts.png);
-    position: absolute;
     width: 960px;
     height: 620px;
-    left: 480px;
-    top: 193px;
 }
