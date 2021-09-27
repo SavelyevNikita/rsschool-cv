@@ -1,14 +1,12 @@
 #tickets {
     width: 100%;
     padding: 75px 0;
-    /* border: dashed red */
 }
 
 #tickets .container {
     margin: 0 auto;
     width: 1440px;
     height: 743px;
-    /* border: dashed red */
 }
 
 #tickets .container h2 {
@@ -87,6 +85,7 @@
     border: black solid 1px;
     width: 150px;
     height: 50px;
+    margin-left: 50px;
 }
 
 .header-amount {
@@ -108,8 +107,7 @@
     font-size: 22px;
     line-height: 26px;
     color: #000000;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin: 10px 55px 15px 0px;
 }
 
 #tickets .container .wraper .order .amount .senior-number {
@@ -119,6 +117,7 @@
     height: 50px;
     display: flex;
     justify-content: center;
+    margin-left: 50px;
 }
 
 .button {
@@ -129,6 +128,7 @@
     align-items: center;
     justify-content: center;
     background-color: #000000;
+    /* margin-left: 50px; */
 }
 
 .button:hover {
@@ -169,6 +169,7 @@
 
 #basic_number,
 #senior_number {
+    /* margin-right: 20px; */
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
